@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5691119E19DBB89400033296 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5691119D19DBB89400033296 /* AppDelegate.swift */; };
+		569111A019DBB89400033296 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5691119F19DBB89400033296 /* ViewController.swift */; };
+		569111A319DBB89400033296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 569111A119DBB89400033296 /* Main.storyboard */; };
+		569111A519DBB89400033296 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 569111A419DBB89400033296 /* Images.xcassets */; };
+		569111A819DBB89400033296 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 569111A619DBB89400033296 /* LaunchScreen.xib */; };
+		569111B419DBB89400033296 /* ConlacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569111B319DBB89400033296 /* ConlacTests.swift */; };
+		569111BE19DBB91A00033296 /* pendulum.png in Resources */ = {isa = PBXBuildFile; fileRef = 569111BD19DBB91A00033296 /* pendulum.png */; };
+		569111C019DBB92000033296 /* bird.png in Resources */ = {isa = PBXBuildFile; fileRef = 569111BF19DBB92000033296 /* bird.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		569111AE19DBB89400033296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5691119019DBB89400033296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5691119719DBB89400033296;
+			remoteInfo = Conlac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5691119819DBB89400033296 /* Conlac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Conlac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5691119C19DBB89400033296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5691119D19DBB89400033296 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5691119F19DBB89400033296 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		569111A219DBB89400033296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		569111A419DBB89400033296 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		569111A719DBB89400033296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		569111AD19DBB89400033296 /* ConlacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConlacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		569111B219DBB89400033296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		569111B319DBB89400033296 /* ConlacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConlacTests.swift; sourceTree = "<group>"; };
+		569111BD19DBB91A00033296 /* pendulum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pendulum.png; sourceTree = "<group>"; };
+		569111BF19DBB92000033296 /* bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5691119519DBB89400033296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		569111AA19DBB89400033296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5691118F19DBB89400033296 = {
+			isa = PBXGroup;
+			children = (
+				5691119A19DBB89400033296 /* Conlac */,
+				569111B019DBB89400033296 /* ConlacTests */,
+				5691119919DBB89400033296 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5691119919DBB89400033296 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5691119819DBB89400033296 /* Conlac.app */,
+				569111AD19DBB89400033296 /* ConlacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5691119A19DBB89400033296 /* Conlac */ = {
+			isa = PBXGroup;
+			children = (
+				569111BD19DBB91A00033296 /* pendulum.png */,
+				569111BF19DBB92000033296 /* bird.png */,
+				5691119D19DBB89400033296 /* AppDelegate.swift */,
+				5691119F19DBB89400033296 /* ViewController.swift */,
+				569111A119DBB89400033296 /* Main.storyboard */,
+				569111A419DBB89400033296 /* Images.xcassets */,
+				569111A619DBB89400033296 /* LaunchScreen.xib */,
+				5691119B19DBB89400033296 /* Supporting Files */,
+			);
+			path = Conlac;
+			sourceTree = "<group>";
+		};
+		5691119B19DBB89400033296 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5691119C19DBB89400033296 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		569111B019DBB89400033296 /* ConlacTests */ = {
+			isa = PBXGroup;
+			children = (
+				569111B319DBB89400033296 /* ConlacTests.swift */,
+				569111B119DBB89400033296 /* Supporting Files */,
+			);
+			path = ConlacTests;
+			sourceTree = "<group>";
+		};
+		569111B119DBB89400033296 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				569111B219DBB89400033296 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5691119719DBB89400033296 /* Conlac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 569111B719DBB89400033296 /* Build configuration list for PBXNativeTarget "Conlac" */;
+			buildPhases = (
+				5691119419DBB89400033296 /* Sources */,
+				5691119519DBB89400033296 /* Frameworks */,
+				5691119619DBB89400033296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Conlac;
+			productName = Conlac;
+			productReference = 5691119819DBB89400033296 /* Conlac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		569111AC19DBB89400033296 /* ConlacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 569111BA19DBB89400033296 /* Build configuration list for PBXNativeTarget "ConlacTests" */;
+			buildPhases = (
+				569111A919DBB89400033296 /* Sources */,
+				569111AA19DBB89400033296 /* Frameworks */,
+				569111AB19DBB89400033296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				569111AF19DBB89400033296 /* PBXTargetDependency */,
+			);
+			name = ConlacTests;
+			productName = ConlacTests;
+			productReference = 569111AD19DBB89400033296 /* ConlacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5691119019DBB89400033296 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = DuyNT;
+				TargetAttributes = {
+					5691119719DBB89400033296 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					569111AC19DBB89400033296 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 5691119719DBB89400033296;
+					};
+				};
+			};
+			buildConfigurationList = 5691119319DBB89400033296 /* Build configuration list for PBXProject "Conlac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5691118F19DBB89400033296;
+			productRefGroup = 5691119919DBB89400033296 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5691119719DBB89400033296 /* Conlac */,
+				569111AC19DBB89400033296 /* ConlacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5691119619DBB89400033296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				569111A319DBB89400033296 /* Main.storyboard in Resources */,
+				569111C019DBB92000033296 /* bird.png in Resources */,
+				569111BE19DBB91A00033296 /* pendulum.png in Resources */,
+				569111A819DBB89400033296 /* LaunchScreen.xib in Resources */,
+				569111A519DBB89400033296 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		569111AB19DBB89400033296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5691119419DBB89400033296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				569111A019DBB89400033296 /* ViewController.swift in Sources */,
+				5691119E19DBB89400033296 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		569111A919DBB89400033296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				569111B419DBB89400033296 /* ConlacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		569111AF19DBB89400033296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5691119719DBB89400033296 /* Conlac */;
+			targetProxy = 569111AE19DBB89400033296 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		569111A119DBB89400033296 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				569111A219DBB89400033296 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		569111A619DBB89400033296 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				569111A719DBB89400033296 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		569111B519DBB89400033296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		569111B619DBB89400033296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		569111B819DBB89400033296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Conlac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		569111B919DBB89400033296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Conlac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		569111BB19DBB89400033296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ConlacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Conlac.app/Conlac";
+			};
+			name = Debug;
+		};
+		569111BC19DBB89400033296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ConlacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Conlac.app/Conlac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5691119319DBB89400033296 /* Build configuration list for PBXProject "Conlac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				569111B519DBB89400033296 /* Debug */,
+				569111B619DBB89400033296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		569111B719DBB89400033296 /* Build configuration list for PBXNativeTarget "Conlac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				569111B819DBB89400033296 /* Debug */,
+				569111B919DBB89400033296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		569111BA19DBB89400033296 /* Build configuration list for PBXNativeTarget "ConlacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				569111BB19DBB89400033296 /* Debug */,
+				569111BC19DBB89400033296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5691119019DBB89400033296 /* Project object */;
+}
